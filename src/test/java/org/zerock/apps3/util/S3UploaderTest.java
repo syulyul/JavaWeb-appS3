@@ -32,8 +32,7 @@ public class S3UploaderTest {
 
         try {
 
-            s3Uploader.removeS3File("코알라.jpg");
-            log.info(s3Uploader);
+            s3Uploader.removeS3File("test.jpg");
 
         }catch (Exception e){
             log.error(e.getMessage());
